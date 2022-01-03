@@ -1,0 +1,52 @@
+.item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1.5px solid #a38075;
+	padding-bottom: 1rem;
+	margin: 1rem;
+}
+
+.item h3 {
+	margin: 0;
+}
+
+.summary {
+	width: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.price {
+	color: rgb(173, 76, 76);
+	font-weight: 700;
+	display: inline-block;
+}
+
+.amount {
+	display: inline-block;
+	border: 1px solid rgb(204, 202, 202);
+	padding: 0.2rem 0.6rem;
+	border-radius: 5px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	width: 85px;
+	justify-content: space-around;
+}
+
+.buttons button {
+	border: 1px solid rgb(173, 76, 76);
+	padding: 0.05rem 0.7rem;
+	border-radius: 5px;
+	background-color: transparent;
+	color: rgb(173, 76, 76);
+	cursor: pointer;
+	font-size: 1.25rem;
+}

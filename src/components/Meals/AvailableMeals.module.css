@@ -1,0 +1,13 @@
+.meals {
+	width: 90%;
+	max-width: 800px;
+	position: relative;
+	margin: 5rem auto;
+	top: 0px;
+}
+
+.meals ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}

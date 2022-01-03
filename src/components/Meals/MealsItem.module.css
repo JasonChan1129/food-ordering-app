@@ -1,0 +1,24 @@
+.item {
+	border-bottom: 1.5px solid #d8d2d0;
+	padding-bottom: 1rem;
+	margin: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item h3 {
+	margin: 0;
+}
+
+.description {
+	font-style: italic;
+	font-weight: 500;
+	margin: 0.5rem 0;
+}
+
+.price {
+	color: rgb(173, 76, 76);
+	font-weight: 700;
+}
